@@ -1,37 +1,51 @@
-<<<<<<< HEAD
-# React + TypeScript + Vite
+# My React Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A dynamic application for employers to search, evaluate, and save potential candidates using the GitHub API.
 
-Currently, two official plugins are available:
+## Table of Contents
 
-* [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md), which uses [Babel](https://babeljs.io/) for Fast Refresh
-* [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc), which uses [SWC](https://swc.rs/) for Fast Refresh
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Features](#features)
+- [Screenshot](#screenshot)
+- [link](#link)
 
-## Expanding the ESLint configuration
+## Description
 
-If you're developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+The Vital Candidate Search project is a single-page application designed to help employers streamline the candidate search process. By utilizing the GitHub API, the application fetches and displays information about potential candidates, such as their name, location, email, and GitHub profile. Users can evaluate candidates, save promising profiles for later, and manage the saved list. The application is built using React and TypeScript, with a responsive and user-friendly design.
 
-* Configure the top-level `parserOptions` property as follows:
+## Installation
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Widemax/Vital-Candidate-Search.git
+2. Navigate to the Project Directory:
+   ```bash
+   cd Vital-Candidate-Search
+3. Install Dependencies:
+   ```bash
+   npm install
+4. Create a .env file
 
-* Replace `plugin:@typescript-eslint/recommended` with `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`.
-* Optionally, add `plugin:@typescript-eslint/stylistic-type-checked`.
-* Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` and `plugin:react/jsx-runtime` to the `extends` list.
+## Usage
+1. Start the Development Server:
+   ```bash
+   npm run dev
+2. Open the application in your browser:
+   ```bash
+   http://localhost:5173
+3. Review candidate profiles, save potential candidates, view and manage the saved list.
 
----
-© 2024 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
-=======
-# Vital-Candidate-Search
->>>>>>> 3899e54e7b980aed51fa365a0498f0f816f13615
+## Features
+1. Candidate Search Page
+2. Potential Candidates Page:
+3. Responsive Design:
+4. State Persistence:
+
+## Screenshot
+![image](https://github.com/user-attachments/assets/ca689d2d-5949-49dc-82be-ac43cf5099c1)
+
+
+## Link
+https://vitalcandidatesearch.netlify.app
