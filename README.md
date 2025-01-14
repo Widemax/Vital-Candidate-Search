@@ -1,4 +1,4 @@
-# My React Portfolio
+# Vital Candidate Search
 
 A dynamic application for employers to search, evaluate, and save potential candidates using the GitHub API.
 
